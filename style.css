@@ -1,0 +1,30 @@
+h2 {
+	color: blue;
+}
+
+label {
+	font: bold 14px/20px 'Verdana', sans-serif;
+}
+
+input {
+	display: block;
+	margin: 0 0 20px 0;
+	font: 14px/16px 'Verdana', sans-serif;
+}
+
+input[type='submit'] {
+	font-size: 20px;
+	font-weight: bolder;
+	padding: 10px 10px 10px 10px;
+}
+
+.delete {
+	display: inline;
+	font: 14px 'Verdana', sans-serif;
+}
+
+button.delete{
+	border-radius: 5px;
+	color: red;
+	margin-right: 10px;
+}

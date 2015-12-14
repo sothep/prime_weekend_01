@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script src="jquery-1.11.3.min.js"></script>
+		<script src="MonthlySpend.js" ></script>
+		<title>Prime/Theta Weekend Challenge #1</title>
+	</head>
+	<body>
+		<form id='employeeData'>
+			<label for='firstName'>Employee's First Name:</label>
+			<input type='text' id='firstName' name='firstName'/>
+
+			<label for='lastName'>Employee's Last Name:</label>
+			<input type='text' id='lastName' name='lastName'/>
+
+			<label for='ID'>Employee ID Number:</label>
+			<input type='number' id='ID' name='ID'/>
+
+			<label for='jobTitle'>Job Title:</label>
+			<input type='text' id='jobTitle' name='jobTitle'/>
+
+			<label for='salary'>Annual Salary (USD):</label>
+			<input type='number' id='salary' name='salary'/>
+
+			<input type='submit' id='submit' value='Submit'>
+		</form>
+		<h2 id='monthlyCost'>Total Monthly Cost: $0</h2>
+		<div id='employeeList'></div>
+	</body>
+</html>
